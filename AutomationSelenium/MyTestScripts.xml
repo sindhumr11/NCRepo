@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NC">
+	<groups>
+		<run>
+			<include name="Smoke"></include>
+			<exclude name="Regression"></exclude>
+		</run>
+	</groups>
+	
+
+	<test name="Login">
+		<classes>
+			<class name="testNG.TestNGEx3" />
+			<class name="testNG.TestNGEx2" />
+			<class name="testNG.TestNGEx1" />
+		</classes>
+	</test> <!--Login -->
+</suite> <!--NC -->
